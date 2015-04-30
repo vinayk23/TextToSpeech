@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TextToSpeech</string>
+
+    <string name="read_email_content">Read Email content</string>
+
+    <string name="email_text_to_speech_converter">Email Text to Speech converter</string>
+
+    <string name="show_email">Show Email</string>
+
+</resources>

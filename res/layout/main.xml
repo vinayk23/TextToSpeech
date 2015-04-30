@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+   <TextView android:id="@+id/intro"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/email_text_to_speech_converter"
+	/>
+   
+	<!-- <EditText android:id="@+id/enter"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	/> -->
+
+	<Button
+	    android:id="@+id/show_mail"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical"
+	    android:text="@string/show_email" />
+
+	<!-- <TextView android:id="@+id/email_label"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="To read HTML content from an Email"
+	/> -->
+	<WebView 
+        android:id="@+id/webview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+    />
+	<Button
+	    android:id="@+id/speak_html"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/read_email_content" 
+	    android:visibility="invisible"/>
+</LinearLayout>
